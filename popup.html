@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube Customizer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 10px;
+      width: 200px;
+    }
+
+    label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 10px;
+      background-color: #4285f4;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #357ae8;
+    }
+  </style>
+</head>
+
+<body>
+  <h3>Customize YouTube</h3>
+  <label>
+    <input type="checkbox" id="hideTitle"> Hide Video Title
+  </label>
+  <label>
+    <input type="checkbox" id="hideChannel"> Hide Channel Name
+  </label>
+  <button id="apply">Apply Changes</button>
+</body>
+<script src="popup.js"></script>
+
+</html>
